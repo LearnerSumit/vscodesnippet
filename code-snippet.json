@@ -1,0 +1,17 @@
+{
+  "React Functional Component": {
+    "prefix": "sumit",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <div>",
+      "      ${2:content}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Creates a React functional component with the file name as the component name"
+  }
+}
